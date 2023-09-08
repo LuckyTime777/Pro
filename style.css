@@ -16,18 +16,20 @@ nav{
 font-size: 2rem;
 color: #fff;
 text-decoration: none; /*ลบเส้น*/
-align-items: center;
+
 }
 
 .menu{
   display: flex;
   list-style: none; /*ลบจุดไข่ปลา*/
+  align-items: center;/*จัดให้อยู่กลึ่งกลาง*/
   
 }
 
 .menu li{ /*ข้านใน เมณู มี li */
   margin: 0 1rem; /*ค่าตัวเเรกคือ บน ล่าง ค่าตัวสอง คือซ้าย- ขวา*/
 }
+
 .menu li a{ /*ข้านใน เมณู มี li ใน li มี เทค a*/
   color: #fff;
   text-decoration: none;/*ลบเส้น*/
