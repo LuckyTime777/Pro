@@ -1,0 +1,42 @@
+
+*{ /*ทำการรีเซ็ต*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* เพิ่มสีพื้นหลังสีดำที่การนำทางด้านบน */
+.NavBar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* จัดรูปแบบลิงค์ภายในแถบนำทาง */
+.NavBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* เปลี่ยนสีลิงค์เมื่อโฮเวอร์ */
+.NavBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* เพิ่มสีให้กับลิงค์ที่ใช้งานอยู่/ปัจจุบัน */
+.NavBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+/* ส่วนที่จัดชิดขวาภายในการนำทางด้านบน */
+.NavBar-right {
+  float: right;
+}
+
+
