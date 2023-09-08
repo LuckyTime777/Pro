@@ -145,3 +145,10 @@ margin: 1rem 0;
 .footer-top-itme:nth-child(3) h4{ /*.footer-top-itme:nth-child(2) ให้ใช้ footer-top-itme ตัวที่ 2เเละ3*/
   margin-bottom: 1rem;
 }
+
+/*bottom*/
+.footer-bottom{
+  background-color: #f0f0f0 ;
+  padding: 1rem;
+  text-align: center;
+}
