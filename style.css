@@ -77,3 +77,15 @@ text-decoration: none; /*ลบเส้น*/
   width: 100%;
   padding: 2rem;
 }
+
+/*กล่อง 3 กล่อง blog*/
+
+.blog-con{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem; /*เว้นระหว่างกล่อง*/
+}
+
+.blog-item img {
+  width: 100%;
+}
