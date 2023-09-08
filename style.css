@@ -109,3 +109,32 @@ margin: 1rem 0;
   text-decoration: none;
   border-radius: 5px;
 }
+
+/*footer*/
+.footer-top{
+  padding: 3rem;
+  margin-top: 2rem;
+  background-color: #333;
+  color: #fff;
+}
+.footer-top-item-con{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+
+}
+
+/*footer 3 date*/
+.footer-top-item-con{
+  display: flex;
+  
+}
+
+.footer-top-item-con .date{
+  background-color: #f0f0f0;
+  color: #333;
+  padding:  0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
