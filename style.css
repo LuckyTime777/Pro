@@ -85,7 +85,27 @@ text-decoration: none; /*ลบเส้น*/
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2rem; /*เว้นระหว่างกล่อง*/
 }
+.blog-title{
+  margin:  2rem 0;
+}
 
 .blog-item img {
   width: 100%;
+}
+
+.blog-item h4{
+  margin-top:  1rem;
+}
+
+.blog-item p{
+margin: 1rem 0;
+}
+
+.blog-item a{
+  display: inline-block;
+  color: #fff;
+  background-color: orange;
+  padding:  0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
 }
